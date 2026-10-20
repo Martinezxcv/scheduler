@@ -19,4 +19,4 @@ spring:
         format_sql: true
   flyway:
     enabled: true
-    location: classpath:db/migration
+    locations: classpath:db/migration
